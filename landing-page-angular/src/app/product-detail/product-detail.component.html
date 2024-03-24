@@ -1,1 +1,12 @@
-<h1>Detalle del producto: {{producto}}</h1>
+<ng-container *ngIf="!loading">
+    <h1>Producto: {{product?.name}}</h1>
+    <h2 [ngStyle]="{'color':color}">Precio: {{product?.price | currency}}</h2>
+    <!-- <h3>Descripcion: {{product?.description}}</h3> -->
+    <h3 *ngIf="product?.description">Descripcion: {{product?.description}}</h3>
+    <!-- En la forma de arriba, si no existe e; campo, entoncces no se muetra el h3 -->
+</ng-container>
+<ng-container *ngIf="loading">
+    <i style="color: blue;">
+        Cargando informacion
+    </i>
+</ng-container>
