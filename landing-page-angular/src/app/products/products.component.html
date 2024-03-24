@@ -1,1 +1,31 @@
-<p>products works!</p>
+<h1>Productos de limpieza</h1>
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Nombre</th>
+        <th scope="col">Precio</th>
+        <th scope="col">Detalle</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <th scope="col">Lavandina</th>
+        <th scope="col">$10</th>
+        <button type="button" class="btn btn-outline-primary" [routerLink]="['/products', 'Lavandina']">Detalle</button>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <th scope="col">Detergente</th>
+        <th scope="col">$5</th>
+        <button type="button" class="btn btn-outline-primary" [routerLink]="['/products', 'Detergente']">Detalle</button>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <th scope="col">Limpiavidrio</th>
+        <th scope="col">$7</th>
+        <button type="button" class="btn btn-outline-primary" [routerLink]="['/products', 'Limpia Vidrio']">Detalle</button>
+      </tr>
+    </tbody>
+  </table>
