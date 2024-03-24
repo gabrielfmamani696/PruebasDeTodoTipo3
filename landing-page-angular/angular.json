@@ -3,11 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-<<<<<<< HEAD
     "landing-page-angular": {
-=======
-    "curso-angular-youtube": {
->>>>>>> 11ce8ffc731dffa31dcff4212ddf8ef053f9997a
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -27,11 +23,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-<<<<<<< HEAD
             "outputPath": "dist/landing-page-angular",
-=======
-            "outputPath": "dist/curso-angular-youtube",
->>>>>>> 11ce8ffc731dffa31dcff4212ddf8ef053f9997a
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -80,17 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-<<<<<<< HEAD
               "buildTarget": "landing-page-angular:build:production"
             },
             "development": {
               "buildTarget": "landing-page-angular:build:development"
-=======
-              "buildTarget": "curso-angular-youtube:build:production"
-            },
-            "development": {
-              "buildTarget": "curso-angular-youtube:build:development"
->>>>>>> 11ce8ffc731dffa31dcff4212ddf8ef053f9997a
             }
           },
           "defaultConfiguration": "development"
@@ -98,11 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-<<<<<<< HEAD
             "buildTarget": "landing-page-angular:build"
-=======
-            "buildTarget": "curso-angular-youtube:build"
->>>>>>> 11ce8ffc731dffa31dcff4212ddf8ef053f9997a
           }
         },
         "test": {

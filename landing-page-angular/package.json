@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "name": "landing-page-angular",
-=======
-  "name": "curso-angular-youtube",
->>>>>>> 11ce8ffc731dffa31dcff4212ddf8ef053f9997a
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -11,11 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-<<<<<<< HEAD
     "serve:ssr:landing-page-angular": "node dist/landing-page-angular/server/server.mjs"
-=======
-    "serve:ssr:curso-angular-youtube": "node dist/curso-angular-youtube/server/server.mjs"
->>>>>>> 11ce8ffc731dffa31dcff4212ddf8ef053f9997a
   },
   "private": true,
   "dependencies": {
@@ -29,6 +21,7 @@
     "@angular/platform-server": "^17.2.0",
     "@angular/router": "^17.2.0",
     "@angular/ssr": "^17.2.3",
+    "bootstrap": "^5.3.3",
     "express": "^4.18.2",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",

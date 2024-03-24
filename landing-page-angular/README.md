@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 # LandingPageAngular
-=======
-# CursoAngularYoutube
->>>>>>> 11ce8ffc731dffa31dcff4212ddf8ef053f9997a
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.3.
 
